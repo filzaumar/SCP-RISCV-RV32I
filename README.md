@@ -1,11 +1,11 @@
 # SCP-RISCV-RV32I
 
 This semester project implements a single cycle RISC V processor. The following instructions are effectively executed:
-R-Type	add, sub, xor, or, and, sll
-I-Type (ALU)	addi, xori, ori, andi, slli, srli, srai
-I-Type (Jump)	jalr
-I-Type Load	lb, lh, lw, lbu, lhu
-B-Type (Branch)	beq, bne, blt, bge, bltu, bgeu
+1. R-Type	add, sub, xor, or, and, sll
+2. I-Type (ALU)	addi, xori, ori, andi, slli, srli, srai
+3. I-Type (Jump)	jalr
+4. I-Type Load	lb, lh, lw, lbu, lhu
+5. B-Type (Branch)	beq, bne, blt, bge, bltu, bgeu
 
 Datapath for RV32I processor developed:
 <img width="900" height="629" alt="image" src="https://github.com/user-attachments/assets/520edefb-5e3c-4bc1-aea6-5c8af87d1aca" />
